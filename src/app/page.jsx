@@ -1,16 +1,12 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>
-          Seja bem-vindo ao Trabalho de Versionamento de Software!
-          <br />
-        </h1>
-        <p>
-          Todas as informações necessárias realização do trabalho encontra-se no
-          arquivo <span className="">README.md</span>
-        </p>
-      </main>
-    </>
-  );
+    <main className="min-h-screen flex flex-col items-center justify-center bg-[#f4f4f5] px-6 py-16 text-gray-800 text-center">
+      <h1 className="text-4xl md:text-5xl font-bold mb-6">
+        Sejam Bem-vindos ao nosso site!
+      </h1>
+      <p className="max-w-xl text-lg text-gray-600 mb-12">
+        Use o menu acima para navegar entre as páginas e conhecer melhor sobre nós e nossos serviços.
+      </p>
+    </main>
+  )
 }
